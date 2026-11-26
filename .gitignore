@@ -1,0 +1,17 @@
+# python / latex build files
+__pycache__/
+*.pyc
+.pytest_cache/
+paper/**/*.aux
+paper/**/*.log
+paper/**/*.out
+paper/**/*.bbl
+paper/**/*.blg
+paper/**/*.fls
+paper/**/*.fdb_latexmk
+paper/**/*.synctex.gz
+# generated upload packages (rebuild from paper/)
+arxiv_pkg/
+*.zip
+arxiv_preview.pdf
+clean_marks.py

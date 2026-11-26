@@ -1,0 +1,3 @@
+# raw logs must stay byte-identical to SHA256SUMS.txt
+pilot_runs/raw/** -text
+*.ipynb -text
